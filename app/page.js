@@ -2,7 +2,7 @@
 import { RightBoard } from "@/Component";
 
 export default function Home() {
-  alert("dummy-gmail-acc : johndoe152368@gmail.com pass: john123doe next-pageurl: /dashboard");
+  console.log("{{dummy-gmail-acc : johndoe152368@gmail.com},{ pass: john123doe}, {next-pageurl: /dashboard},}");
   return (
     <div className="boss-cont">
       <main className="bg-white flex w-full">
